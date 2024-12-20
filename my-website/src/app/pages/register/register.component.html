@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register Page</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <button class="btn" id="sign-in">Sign In</button>
+                <button class="btn" id="register">Register</button>
+            </nav>
+        </header>
+        <main>
+            <form class="form">
+                <div class="input-group">
+                    <input type="text" placeholder="First Name" required>
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+                <input type="email" placeholder="Email" required>
+                <input type="date" required>
+                <div class="input-group">
+                    <select>
+                        <option>+ Country Code</option>
+                        <option value="+1">+1</option>
+                        <option value="+91">+91</option>
+                        <!-- Add more country codes here -->
+                    </select>
+                    <input type="tel" placeholder="Phone Number" required>
+                </div>
+                <input type="password" placeholder="Password" required>
+                <button class="btn-primary">Log In</button>
+                <div class="separator">Or</div>
+                <button class="btn-google">Sign up with Google</button>
+            </form>
+        </main>
+        <footer>
+            <p>© Greelogix 202X. All rights reserved.</p>
+            <div class="socials">
+                <a href="#">YouTube</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+/* General Reset */
+body, h1, p, ul, a, button, select {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  header .logo {
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .auth-buttons button {
+    margin-left: 10px;
+    padding: 5px 10px;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    justify-content: center;
+  }
+  
+  select, .search-btn {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-btn {
+    background-color: #008cba;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+  }
+  
+  /* Main Section */
+  main {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  main h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .qa-box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+  }
+  
+  .question, .answer {
+    text-align: left;
+  }
+  
+  .question {
+    background-color: #e3f2fd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .answer {
+    background-color: #d0f0c0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .actions {
+    text-align: right;
+  }
+  
+  .actions button {
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .like-btn {
+    color: green;
+  }
+  
+  .dislike-btn {
+    color: red;
+  }
+  
+  /* Footer */
+  footer {
+    background: #f4f4f4;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
